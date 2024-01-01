@@ -19,7 +19,7 @@
 
 .navbar-list{
     display: flex;
-    padding: 20px;
+    padding: 80px;
     align-items: center;
 }
 
@@ -35,8 +35,9 @@
     font-size: 17px;
 }
 .link:hover{
-    color: #d39f03;
+    color: #270580;
     transition: all 0.3s;
-    text-decoration:underline ;
-    line-height: 10px;
+    /* text-decoration:underline ; */
+    /* line-height: 10px; */
+    font-size: 18px;
 }

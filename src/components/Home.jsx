@@ -1,13 +1,12 @@
 import React from 'react';
+import Hero from '../comps/Hero';
 
 
 const Home = () => {
     return (
-        <div>
-           
-            home
-       
-        </div>
+       <>
+       <Hero/>
+       </>
     );
 }
 
