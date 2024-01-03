@@ -13,7 +13,7 @@ const Footer = () => {
       </div>
       <div className="col-lg-4 text-center col-12 d-flex flex-column align-items-center justify-content-evenly">
         <div>
-        <h2 style={{fontFamily:"Fira Code, monospace", fontWeight:'600', color:'#31EDC5'}}>Our Socials</h2>
+        <h2 style={{fontFamily:"Fira Code, monospace", fontWeight:'600', color:'white'}}>Our Socials</h2>
         <hr style={{color:'white'}} />
         </div>
     
@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
       <div className="col-lg-4 col-12 d-flex flex-column align-items-center justify-content-evenly">
       <div>
-        <h2 style={{fontFamily:"Fira Code, monospace", fontWeight:'600', color:'#31EDC5'}}>Connect With Us</h2>
+        <h2 style={{fontFamily:"Fira Code, monospace", fontWeight:'600', color:'white'}}>Connect With Us</h2>
         <hr style={{color:'white'}} />
         </div>
     
