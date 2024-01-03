@@ -1,33 +1,40 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import logo from "../images/logo.png"
+import { Link} from 'react-router-dom';
+
 import './Navbar.css'
+// import { AlertLink } from 'react-bootstrap';
+import logo from "../images/logo.png"
 
 const Navbar = () => {
     
   return (
-    <header className='header'>
-     <NavLink to={'/'}>
-        <img src={logo} alt="Logo" className='logo' />
-     </NavLink>
-     <nav >
-        <div className="menuIcon">
-            <ul className="navbar-list">
-                <li>
-                    <NavLink to="/" className='link'>Home</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/about" className='link'>About</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/services" className='link'>Services</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/contact" className='link'>Contact</NavLink>
-                </li>
-            </ul>
-        </div>
-     </nav>
+    <header classNameName='header-x '>
+ <nav className="navbar navbar-expand-lg navbar-light backg px-5 header">
+
+  <Link className="navbar-brand text-light" to="/"><img className='logo' src={logo} alt="Katris Code" /></Link>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div className="collapse d-flex justify-content-end navbar-collapse" id="navbarSupportedContent">
+    <ul className="navbar-nav mr-auto">
+      <li className="nav-item active text-light">
+        <Link className="nav-link link " to="/">Home </Link>
+      </li>
+      <li className="nav-item text-light">
+        <Link className="nav-link link" to="/about">About</Link>
+      </li>
+      <li className="nav-item text-light">
+        <Link className="nav-link link " to="/services">Services</Link>
+      </li>
+      <li className="nav-item text-light">
+        <Link className="nav-link link" to="/contact">Contact</Link>
+      </li>
+    
+    </ul>
+  </div>
+</nav>
     </header>
   );
 }
