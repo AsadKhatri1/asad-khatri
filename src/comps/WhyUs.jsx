@@ -47,7 +47,7 @@ const WhyUs = (props) => {
                                     <img src={ser.icon} alt="service icon" className='py-2' />
                                     <h3 className='text-center' style={{ fontFamily: "Fira Code, monospace", fontWeight: '600', color: 'white' }}>{ser.title}</h3>
                                     <span style={{ fontFamily: "Fira Code, monospace", opacity: '0.8', color: 'white' }} >{ser.description}</span>
-                                    <button className='btn my-4 px-3' style={{backgroundColor:'#14222f',border:"1px solid #31EDC5", color:'#0c002b', fontFamily:"Fira Code, monospace", boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"} }><NavLink style={{color:'#31EDC5', textDecoration:'none'}} to="/contact">Order Now</NavLink></button>
+                                    <button className='btn my-4 px-3' style={{backgroundColor:'#14222f',border:"1px solid #31EDC5", color:'#0c002b', fontFamily:"Fira Code, monospace", boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"} }><NavLink style={{color:'#31EDC5', textDecoration:'none'}} to="/consult">Order Now</NavLink></button>
                                 </div>
 
                             </div>
