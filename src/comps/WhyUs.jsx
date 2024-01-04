@@ -42,8 +42,8 @@ const WhyUs = (props) => {
 
                     {service.map((ser) => {
                         return (
-                            <div className="col-lg-3 col-12 my-5" >
-                                <div className="card d-flex flex-column justify-content-center align-items-center p-5 rounded" style={{minHeight:'520px', maxHeight:'600px', backgroundColor:'#14222f', boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'}}>
+                            <div className="col-lg-3 col-md-6 col-12 my-5" >
+                                <div className="card d-flex flex-column justify-content-center align-items-center p-5 rounded" style={{height:'540px', maxHeight:'600px', backgroundColor:'#14222f', boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'}}>
                                     <img src={ser.icon} alt="service icon" className='py-2' />
                                     <h3 className='text-center' style={{ fontFamily: "Fira Code, monospace", fontWeight: '600', color: 'white' }}>{ser.title}</h3>
                                     <span style={{ fontFamily: "Fira Code, monospace", opacity: '0.8', color: 'white' }} >{ser.description}</span>
