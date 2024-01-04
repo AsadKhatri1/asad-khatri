@@ -15,14 +15,14 @@ const Footer = () => {
       
      
       </div>
-      <div className="col-lg-4 text-center col-12 d-flex flex-column align-items-center justify-content-evenly">
-        <div>
+      <div className="col-lg-4 text-center col-12 d-flex flex-column align-items-center justify-content-evenly my-3">
+       <div>
         <h2 style={{fontFamily:"Fira Code, monospace", fontWeight:'600', color:'white'}}>Our Socials</h2>
         <hr style={{color:'white'}} />
         </div>
     
       <div className='d-flex direction-column' >
-      <div className=' d-flex flex-row '>
+      <div className=' d-flex flex-row my-3'>
         <a href='https://www.facebook.com/profile.php?id=61554953861588' target='_blank' className='mx-2'><img src={fb} alt="facebook" /></a>
         <a href='https://www.instagram.com/katriscode?igsh=dmMyM3p3dTg5OG11' target='_blank' className='mx-2'><img src={insta} alt="facebook" /></a>
         <a href='https://www.linkedin.com/company/katris-code/' target='_blank' className='mx-2'><img src={linkedin} alt="facebook" /></a>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
     
       <div className='d-flex ' >
-      <div className=' d-flex flex-row '>
+      <div className=' d-flex flex-row my-3'>
         <a href='mailto:katriscode@outlook.com' target='_blank' className='mx-2' style={{textDecoration:'none', color:'#31EDC5'}}><img src={mail} alt="facebook" style={{padding:'0px 15px'}}/>katriscode@outlook.com</a>
         
       </div>
