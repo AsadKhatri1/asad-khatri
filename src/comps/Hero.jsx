@@ -13,8 +13,8 @@ const Hero = (props) => {
                 <span style={{fontFamily:"Fira Code, monospace", opacity:'0.8'}} >{props.desc}</span>
               <button className='btn my-3 px-5 rounded-lg' style={{backgroundColor:'#14222f',color:'white', fontFamily:"Fira Code, monospace", boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"} }><NavLink style={{color:'white', textDecoration:'none'}} to={props.link}>{props.btnText}</NavLink></button>
             </div>
-            <div className='right col-lg-6 col-12 d-flex  flex-column align-items-end justify-content-center'>
-                <img src={heroHome} alt="home hero " className='heroImg' style={{height:'440px', width:'500px'}}/>
+            <div className='right col-lg-6 col-12 d-flex  flex-column align-items-center justify-content-center'>
+                <img src={heroHome} alt="home hero " className='heroImg' style={{height:'380px', width:'80%'}}/>
             </div>
         </div>
         </div>
